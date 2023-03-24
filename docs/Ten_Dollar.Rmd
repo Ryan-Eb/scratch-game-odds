@@ -1,0 +1,54 @@
+---
+title: "$10 Dollar Game Analysis"
+output: 
+  html_document:
+    theme: yeti
+---
+
+------------------------------------------------------------------------
+
+```{r include = FALSE}
+
+source("data_prep.R")
+knitr::opts_chunk$set(echo = FALSE, 
+                      warning = FALSE, 
+                      message = FALSE,
+                      fig.align = "center")
+
+x10 <- 5
+```
+
+#### Winning Tickets Claimed vs \# Tickets in Game/Age of Game {style="text-align: center"}
+
+```{r}
+tickets_age_per_claimed_plot[[x10]]
+```
+
+::: {style="text-align: center"}
+Most favorable games are located in the lower left quadrant in the red box. This typically would mean an older game with a lower number of tickets available and a low % of winning tickets claimed
+:::
+
+------------------------------------------------------------------------
+
+#### Odds of \>\$500 Winning Ticket vs \# of Tickets in Game {style="text-align: center"}
+
+```{r}
+odds_500_tickets_plot[[x10]]
+```
+
+::: {style="text-align: center"}
+Games located in the red box have the highest odds of picking a \>\$500 Winning Scratch-Off and have the fewest number of tickets in the game. Avoid games outside the red box for the best chance of winning.
+:::
+
+------------------------------------------------------------------------
+
+#### % of Winning Tickets Claimed vs Age of Game {style="text-align: center"}
+
+```{r}
+
+per_claim_plot_list[[x10]]
+```
+
+::: {style="text-align: center"}
+Use this plot to track your favorite game over time. For the best chance of winning target games that have % of winning tickets claimed well below the blue trend line. An older game with low % winners claimed can provide good opportunity. Newer games have more unknowns but more chances at big winners.
+:::

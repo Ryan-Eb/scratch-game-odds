@@ -1,0 +1,8 @@
+---
+title: "About This Website"
+---
+
+Data collected from Minnesota State Lottery Website
+
+Claimed Winning Ticket information is updated on business days.
+
