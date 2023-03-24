@@ -14,15 +14,16 @@ knitr::opts_chunk$set(echo = FALSE,
                       fig.align = "center")
 ```
 
-```{r out.width= "30%", fig.height=8, out.extra='style="float:right"'}
+```{r echo=FALSE, out.extra='style="float:right; margin: auto; max-width:500px"'}
+
 MN_logo <- ggplot2::map_data("state","minnesota") %>% 
   ggplot(aes(long,lat))+
-  geom_polygon(fill = "white", color = "red", linewidth=2)+
+  geom_polygon(fill = "white", color = "black", linewidth=2)+
   annotate("text",
-           x = -94.4,
-           y = 47,
+           x = -94.2,
+           y = 47.3,
            label = "Best-Scratch-Offs.com",
-           size = 8,
+           size = 5,
            fontface = "bold")+
   annotate("rect",
            xmin = -95.5,
@@ -36,7 +37,7 @@ MN_logo <- ggplot2::map_data("state","minnesota") %>%
            x = -94.5,
            y = 45.7,
            label ="WINNER",
-           size = 6)+
+           size = 5)+
   annotate("text",
            x = -94.5,
            y = 45.2,
@@ -76,7 +77,7 @@ Check out our detailed analysis tab for a thorough breakdown for each \$ amount,
 
 Trust us to provide the insights you need to improve your odds of winning big on scratch-off tickets in Minnesota. Keep reading to find the best games to play and increase your chances of winning.
 
-<br> <br> <br> <br>
+<br> <br>
 
 ### [Best Scratch-Off games to buy today:]{.underline} {style="text-align: center"}
 
