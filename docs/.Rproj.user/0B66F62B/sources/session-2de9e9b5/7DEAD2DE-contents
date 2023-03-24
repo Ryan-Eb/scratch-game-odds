@@ -1,0 +1,19 @@
+name: "Best-Scratch-Offs.com"
+output_dir: "."
+navbar:
+  title: "Best-Scratch-Offs.com"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Detailed Analysis"
+      menu:
+        - text: "$3 Games"
+          href: Three_Dollar.html
+        - text: "$5 Games"
+          href: Five_Dollar.html
+        - text: "$10 Games"
+          href: Ten_Dollar.html
+    - text: "Game Data"
+      href: All_Games.html
+    - text: "About"
+      href: about.html
