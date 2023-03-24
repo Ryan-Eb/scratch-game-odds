@@ -26,6 +26,22 @@ MN_logo <- ggplot2::map_data("state","minnesota") %>%
            size = 5,
            fontface = "bold")+
   annotate("rect",
+           xmin = -95.1,
+           xmax = -93.1,
+           ymin = 44.2,
+           ymax = 46.2,
+           fill = "white",
+           color = "black",
+           linetype = 2)+
+  annotate("rect",
+           xmin = -95.3,
+           xmax = -93.3,
+           ymin = 44.1,
+           ymax = 46.1,
+           fill = "white",
+           color = "black",
+           linetype = 2)+
+  annotate("rect",
            xmin = -95.5,
            xmax = -93.5,
            ymin = 44,
@@ -33,6 +49,7 @@ MN_logo <- ggplot2::map_data("state","minnesota") %>%
            fill = "white",
            color = "black",
            linetype = 2)+
+
   annotate("text",
            x = -94.5,
            y = 45.7,

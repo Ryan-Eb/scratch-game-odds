@@ -3,7 +3,7 @@
     "path": "~/Documents/GitHub/scratch-game-odds/docs/index.Rmd",
     "project_path": "index.Rmd",
     "type": "r_markdown",
-    "hash": "97248838",
+    "hash": "989270614",
     "contents": "",
     "dirty": false,
     "created": 1679621763782.0,
@@ -12,8 +12,8 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "16,35",
-        "scrollLine": "0",
+        "cursorPosition": "86,0",
+        "scrollLine": "70",
         "rmdVisualMode": "false",
         "rmdVisualWrapConfigured": "true",
         "docOutlineVisible": "1",
@@ -22,11 +22,11 @@
         "docOutlineSize": "114"
     },
     "folds": "",
-    "lastKnownWriteTime": 1679625947,
+    "lastKnownWriteTime": 1679627148,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1679625947615,
+    "last_content_update": 1679627148915,
     "read_only": false,
     "read_only_alternatives": []
 }
