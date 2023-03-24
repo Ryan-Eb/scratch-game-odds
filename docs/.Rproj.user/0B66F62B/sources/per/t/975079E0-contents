@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = FALSE,
                       fig.align = "center")
 ```
 
-```{r echo=FALSE, out.extra='style="float:right; margin: auto; max-width:500px"'}
+```{r echo=FALSE, out.width="100%" ,out.extra='style="float:right; margin: auto; max-width:500px"'}
 
 MN_logo <- ggplot2::map_data("state","minnesota") %>% 
   ggplot(aes(long,lat))+
