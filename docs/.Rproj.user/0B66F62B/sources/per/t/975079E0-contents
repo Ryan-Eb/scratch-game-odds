@@ -208,7 +208,7 @@ per_claim_plot_list[[6]]+
 
 ------------------------------------------------------------------------
 
-The Best **`r best_game_list[[7]][1,2]`** Game to play right now is [**`r best_game_list[[7]][1,1]`**]{.underline}. Only `r round(best_game_list[[7]][1,4],1)`% of winning tickets have been claimed. Typically for a `r as.numeric(best_game_list[[7]][1,3])` day old game `r round(best_game_list[[7]][1,5],1)`% of winners have been claimed.
+The Best **`r best_game_list[[7]][1,2]`** Game to play right now is [**`r gsub("\\$", "S", best_game_list[[7]][1,1])`**]{.underline}. Only `r round(best_game_list[[7]][1,4],1)`% of winning tickets have been claimed. Typically for a `r as.numeric(best_game_list[[7]][1,3])` day old game `r round(best_game_list[[7]][1,5],1)`% of winners have been claimed.
 
 ```{r}
 #| echo: false
