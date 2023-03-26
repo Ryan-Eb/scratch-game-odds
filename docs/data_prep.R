@@ -3,15 +3,12 @@ library(lubridate)
 library(kableExtra)
 library(DT)
 
+daily_csv <- list.files("/Users/jennaryan/Documents/R Projects/mn lottery/daily_csv_mn",
+                        full.names = TRUE) %>% 
+  lapply(read_csv)
 
-#read CSV off unclaimed scratch off winners
-df1 <- read_csv("/Users/jennaryan/Documents/R Projects/mn lottery/scratch_prizes2023-03-12.csv")
-df2 <- read_csv("/Users/jennaryan/Documents/R Projects/mn lottery/scratch_prizes2023-03-17.csv")
-df3 <- read_csv("/Users/jennaryan/Documents/R Projects/mn lottery/scratch_prizes2023-03-21.csv")
-df4 <- read_csv("/Users/jennaryan/Documents/R Projects/mn lottery/scratch_prizes2023-03-22.csv")
-df5 <- read_csv("/Users/jennaryan/Documents/R Projects/mn lottery/scratch_prizes2023-03-24.csv")
+df <- bind_rows(daily_csv)
 
-df <- bind_rows(df1,df2,df3,df4,df5)
 #remove end data.  add columns for % claimed.  add game age column
 #separate the game $ amount
 
